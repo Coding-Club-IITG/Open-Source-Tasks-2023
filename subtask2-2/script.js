@@ -1,15 +1,15 @@
 
-var radius = 240; 
-var autoRotate = true; 
+var radius = 240;
+var autoRotate = true;
 var rotateSpeed = -60;
-var imgWidth = 120; 
-var imgHeight = 170; 
+var imgWidth = 120;
+var imgHeight = 170;
 
-// the task starts here 
+// the task starts here
 // currently the bgMusicURL is not working
 // create a folder called Music and insert a music file in it then the music on the website should work
 bgMusicURL = './Music/music.mp3'
-var bgMusicControls = true; 
+var bgMusicControls = true;
 
 setTimeout(init, 1000);
 
@@ -17,7 +17,7 @@ var odrag = document.getElementById('drag-container');
 var ospin = document.getElementById('spin-container');
 var aImg = ospin.getElementsByTagName('img');
 var aVid = ospin.getElementsByTagName('video');
-var aEle = [...aImg, ...aVid]; 
+var aEle = [...aImg, ...aVid];
 
 
 ospin.style.width = imgWidth + "px";
@@ -57,7 +57,7 @@ if (autoRotate) {
 
 if (bgMusicURL) {
   document.getElementById('music-container').innerHTML += `
-<audio src="${bgMusicURL}" ${bgMusicControls? 'controls': ''} autoplay loop>    
+<audio src="${bgMusicURL}" ${bgMusicControls? 'controls': ''} autoplay loop>
 <p>If you are reading this, it is because your browser does not support the audio element.</p>
 </audio>
 `;
