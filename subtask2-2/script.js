@@ -8,11 +8,11 @@ var imgHeight = 170;
 // the task starts here 
 // currently the bgMusicURL is not working
 // create a folder called Music and insert a music file in it then the music on the website should work
-bgMusicURL = './Music/music.mp3'
+bgMusicURL = 'Music/music.mp3'
 var bgMusicControls = true; 
 
 setTimeout(init, 1000);
-
+// well another branch
 var odrag = document.getElementById('drag-container');
 var ospin = document.getElementById('spin-container');
 var aImg = ospin.getElementsByTagName('img');
