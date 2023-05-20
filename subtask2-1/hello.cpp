@@ -3,6 +3,6 @@ using namespace std;
 
 int main()
 {
-    cout<<"Hello Binit | 220108017"<<endl;
+    cout<<"Hello World"<<endl;
     return 0;
 }
