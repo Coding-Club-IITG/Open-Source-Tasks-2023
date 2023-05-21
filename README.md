@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+
+# ccRecruitment
+Name - Monu Singh Bhargav
+Roll N0. 220123037
+Branch - Mathematics and Computing
+Nowadays I am playing Badminton extensively and have interest in Photography 
+
+I want contribute to opensource , it will help me to streghten my wev d skills
+
+=======
 ![Coding_Week](./Coding_Week.jpeg)
 
 # Open Source Module
@@ -41,3 +52,4 @@ Try to be as creative as possible ;)
 ## Note:
 
 Though doing all the tasks is not necessary, the more you will attempt the better the chances will be of getting higher points from Heads.
+>>>>>>> 018aa1b4af7ae2c64abb9c95ffc88761494b7aa2
